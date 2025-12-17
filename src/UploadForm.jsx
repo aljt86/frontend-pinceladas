@@ -17,7 +17,7 @@ export default function UploadForm({ setResult }) {
     try {
       setLoading(true);
       const response = await axios.post(
-        "http://localhost:8000/analyze-drawing",
+        "http://backend-pinceladas.onrender.com/analyze-darwing",
         formData,
         {
           headers: {
